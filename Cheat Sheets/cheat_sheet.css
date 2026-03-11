@@ -1,0 +1,181 @@
+/*Take specific HTML tags and style them*/
+
+/*Change how the body tag is presented*/
+body {
+    background: green; /*Can also use hexcodes for colors*/
+    color: blue; /*A property*/
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Link to a style sheet
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+*/
+
+/*Change image field*/
+img {
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+}
+
+/*Display block stacks on top*/
+/*Display inline stacks side to side*/
+
+/*Can also target divs*/
+div {
+    margin-top: 50px;
+}
+/*This affects ALL divs, so we want to use classes instead for different divs with different styling*/
+/*<div class = "main">*/
+.main {
+    margin-top: 50px;
+}
+
+/*Change a class value*/
+.googleimg {
+    margin-top: 10px;
+}
+
+/* Can have classes on individual HTMl tags, not just divs
+<img class="googleimg" src="google.png"/>
+*/
+
+/*Margins*/
+.red {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} /*Margin top and margin bottom will override, pick the larger one*/
+
+/*Add space between logo and search field*/
+.logo-img {
+    display: block;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+}
+
+/*Center margins*/
+img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Padding*/
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-left: auto;
+
+    padding: 20px /*Creates space between text and div border*/
+    /*Padding top, bottom, left, and right also exist for individual sides*/
+    /*Margins live on the outside, padding lives on the inside*/
+}
+
+/*Change padding*/
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*
+    Challenge:
+    Add padding to make our card look like
+    the provided design */
+    padding-top: 250px;
+    padding-right: 200px; 
+}
+
+/*Border*/
+.card {
+    border: 2px solid red; /*Size, style, color*/
+    border-radius: 30px; /*Softer corners*/
+}
+
+/*Fix the border*/
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Challenge:
+    Change the values to match the design
+    in the slide */
+    border: 2px solid #222222;
+    border-radius: 20px;
+    
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/*The box model
+Margin
+Border
+Padding
+Content
+*/
+
+/* 
+Challenge: 
+Make the button look like Twitter's "Following" button!
+(Except for the font)
+
+Hints:
+border color: #cfd9de
+text color: #0f1419
+Remember the font-weight!
+*/
+.twitter-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: 1px solid #cfd9de;
+    border-radius: 20px;
+
+    background: white;
+    color: #0f1419;
+    font-weight: bold;   
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    Challenge: 
+    Design the search field according to the spec
+    */
+    line-height: 24px; /*Recommended to use over height*/
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
