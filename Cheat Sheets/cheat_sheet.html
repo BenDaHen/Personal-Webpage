@@ -128,3 +128,13 @@ Deployment
 <head>
     <link rel="stylesheet" href="styles.css"/>
 </head>
+
+<!--File Paths-->
+<img src="folder/image.png"> <!--Image.png is located in folder, which is in the current directory as the HTML-->
+<img src="./folder/image.png"> <!--Image.png is located in folder, which is in the current directory as the HTML, ./ references CWD, same as no ./-->
+<img src="../folder/image.png"> <!--Image.png is located in folder, which is in the current directory as the HTML, ../ references parent directory-->
+<img src="/folder/image.png"> <!--Image.png is located in folder, which is in the current directory as the HTML, / references root directory-->
+
+<!--Image alt text-->
+<img src="image.png" alt="alt text goes here"> <!--The alt text is a description for the image does not appear on website, helps with accessibility and works as fallback-->
+<!--Don't include 'image of', less than 125 characters, describe it over the phone-->

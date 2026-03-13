@@ -248,3 +248,26 @@ Classes
 Centering
 Flexbox
 */
+
+/*More on Flexbox
+Flexbox only turns DIRECT children into columns, but not nested children
+    <div class="pricing">
+        <div> This is a flexbox column
+            <h2>For individuals</h2>
+            <ul>
+               <li>1 gb</li>
+                <li>No support</li>
+            </ul>
+            <button>Buy now</button>
+        </div>
+            
+        <div> This is a second flexbox column
+            <h2>For enterprise</h2>
+                <ul>
+                    <li>10 gb</li>
+                <li>Priority support</li>
+                </ul>
+            <button>Contact us</button>
+        </div>
+    </div>
+*/
