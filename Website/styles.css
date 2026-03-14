@@ -91,14 +91,15 @@ img {
 }
 
 .trails-text-top {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50pt;
     color: #9e1e08;
+    font-weight: bold;
 }
 
 .trails-text-bottom {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50pt;
-    font-weight: bolder;
     color: #d48428;
+    font-weight: bold;
 }

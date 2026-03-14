@@ -271,3 +271,44 @@ Flexbox only turns DIRECT children into columns, but not nested children
         </div>
     </div>
 */
+
+/*Utility class*/
+/*Utility classes usually have one CSS value. They can be inherited through divs and you can use multiple classes in a single element*/
+/*<div class="card italic"> Uses both the card and italic classes*/
+
+/*CSS Inheritance*/
+/*
+Inheritance makes code DRY (Don't Repeat Yourself), generally has less bugs, and is more efficient
+Inheritance works for all children not just direct children
+*/
+
+/*Shortcut - Ctrl+D highlights all instances of a selected item*/
+
+/*Side Borders*/
+/*Borders can be added on individual sides with border-top and other sides, similarly to margins and padding*/
+
+/*Web safe fonts*/
+/*Web safe fonts do not beed to be sent over the network as most machines have these fonts pre-installed*/
+
+/*Fonts*/
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Font family changes the font to the first one in the list, then continues down until it finds one*/
+/*sans-serif contains multiple fonts, will pick one*/
+
+/*Margin and Padding Shorthands*/
+/*margin is the same as using all sides of margin
+Can use margin with the values given
+Can also use margin with 2 values for top/bottom and left/right
+Works with padding as well
+*/
+body {
+    margin: 10px 20px 30px 40px;
+    /*Top, Right, Bottom, Left*/
+    margin: 10px auto;
+    /*Top/bottom, Right/left*/
+    /*Order of a clock*/
+}
+
+/*Shortcut, Ctrl+K+C to comment out highlighted text*/
