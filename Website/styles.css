@@ -1,34 +1,31 @@
 body {
+    background: #a8a4bd;
+    margin: 0;
+}
+
+.about-me {
+    display: flex;
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: space-around;
     background: green;
-    text-align: center;
 }
 
 .inline-list {
     display: inline-block;
 }
 
-.red-text {
-    color: red;
-}
-
-.lighter {
-    font-weight: lighter;
-}
-
-img {
+.avatar {
     width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .nav-bar {
     display: flex;
     justify-content: left;
     padding-left: 10px;
-    background: lightblue;
+    background: #060317;
     margin-bottom: 10px;
-    border: 2px solid blueviolet;
 }
 
 .nav-bar-select {
@@ -80,6 +77,10 @@ img {
     margin-left: 30px;
 }
 
+.text-align-center {
+    text-align: center;
+}
+/* 
 .trails-text {
     width: 1355px;
     height: 177px;
@@ -102,4 +103,4 @@ img {
     font-size: 50pt;
     color: #d48428;
     font-weight: bold;
-}
+} */
