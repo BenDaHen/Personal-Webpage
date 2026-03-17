@@ -312,3 +312,37 @@ body {
 }
 
 /*Shortcut, Ctrl+K+C to comment out highlighted text*/
+
+/*Business Card Recap*/
+/*
+Image alt texts
+Flex child containers
+Inheritance
+Web-safe fonts
+Color Pallets
+Github
+*/
+
+/*Background Images*/
+body { /*Span across the entire body*/
+    background-image: url("images/image.jpg");
+    background-size: cover; /*Makes the image as large as its container*/
+}
+
+/*Google Fonts*/
+/*
+Copy embed code from google fonts into the HTMl head, 
+then set the font-family in the CSS where it is needed
+*/
+
+/*Buttons do not inherit font families, but can make them inherit with the inherit keyword*/
+.btn {
+    font-family: inherit;
+}
+
+/*@font-face*/
+/*Can place fonts into file system, then use them with @font-face*/
+/*@font-face {
+    src: url("font.ttf")
+    font-family: font-name;
+}*/
