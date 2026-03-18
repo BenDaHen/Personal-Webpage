@@ -346,3 +346,6 @@ then set the font-family in the CSS where it is needed
     src: url("font.ttf")
     font-family: font-name;
 }*/
+
+/*Text Decorations*/
+/*Text decorations let you decorate text in CSS, can do underline, dotted, line-through, etc.*/
