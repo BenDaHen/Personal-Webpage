@@ -349,3 +349,20 @@ then set the font-family in the CSS where it is needed
 
 /*Text Decorations*/
 /*Text decorations let you decorate text in CSS, can do underline, dotted, line-through, etc.*/
+
+/*Text Shadow*/
+/*Adds shadow to the underside of the text, can choose offset and color*/
+.text-shadow {
+    text-shadow: 5px 5px 5px black; /*Horizontal offset, vertical offset, blur, color*/
+}
+/*Can add ablur around words that blend in with the background to make it stand out*/
+
+/*Space Exploration Summary*/
+/*
+Background images
+Webp format
+Google Fonts
+The <span> tag
+IDs & Utility classes
+Text-shadow
+*/

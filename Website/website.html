@@ -4,16 +4,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
 
     <body>
         <!--Nav Bar-->
-        <div class="nav-bar">
+        <!-- <div class="nav-bar">
             <h3 class="nav-bar-select">Option 1</h3>
             <h3 class="nav-bar-select">Option 2</h3>
             <h3 class="nav-bar-select">Option 3</h3>
-        </div>
+        </div> -->
 
         <!--About Me-->
         <div class="about-me">
@@ -21,7 +20,7 @@
             <img 
             src="./images/ben mikes.jpg"
             alt="Ben smiling holding a glass of Mike's Hard Lemonade"
-            class="avatar test-border">
+            id="avatar">
             <!--Facts-->
             <div>
                 <h1>Hi, my name is Ben</h1>
@@ -34,28 +33,35 @@
             </div>
         </div>
 
-        <!--LinkedIn-->
-        <p class="text-align-center">
-            Connect with me on <a href="https://www.linkedin.com/in/benjamin-wilmer-1526573ab"
-            target="_blank">LinkedIn</a>
-        </p>
+        <div id="linkedin-github">
+            <!--LinkedIn-->
+            <p class="project-wrapper button-padding">
+                Connect with me on <a href="https://www.linkedin.com/in/benjamin-wilmer-1526573ab"
+                target="_blank">LinkedIn</a>
+            </p>
+            <!--Github-->
+            <p class="project-wrapper button-padding">
+                Checkout my <a href="https://github.com/BenDaHen"
+                target="_blank">Github</a>
+            </p>
+        </div>
         
         <!-- Project Section -->
-        <div>
-            <h1 class="text-align-center">Projects</h1>
+        <div id="project-section">
+            <h1>Projects</h1>
 
             <!--Personal Website-->
             <div class="project-wrapper">
                 <h1>Personal Website</h1>
                 <h2 class="lighter">The Personal Website project is what you are viewing right now.</h2>
-                <div class="text-align-left">
-                    <ul>
-                        <li>This is my first project using HTML and CSS (Not JavaScript yet). It displays some information about myself along with the projects that I wish to showcase. </li>
-                    </ul>
-                </div>
+                <ul class="text-align-left">
+                    <li>This is my first project using HTML and CSS (Not JavaScript yet). It displays some information about myself along with the projects that I wish to showcase. </li>
+                </ul>
             </div>
 
-            <button class="fancy-button">Fancy Button</button>
+            <div class="project-wrapper">
+                <h1>Project 2</h1>
+            </div>
         </div>
 
 

@@ -1,5 +1,12 @@
+/*Need to pick fonts for everything
+
+Font Ideas:
+
+
+*/
+
 body {
-    background: #a8a4bd;
+    background: #86BBD8; /*Sky Reflection*/
     margin: 0;
 }
 
@@ -9,18 +16,27 @@ body {
     margin: 10px auto;
     padding: 20px;
     justify-content: space-around;
-    background: green;
+    background: #336699; /*Baltic Blue*/
+    border-bottom: 8px solid #DAF7DC;
+    border-radius: 4px;
+}
+
+#linkedin-github {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 
 .inline-list {
     display: inline-block;
 }
 
-.avatar {
+#avatar {
     width: 200px;
 }
 
-.nav-bar {
+/* .nav-bar {
     display: flex;
     justify-content: left;
     padding-left: 10px;
@@ -39,9 +55,9 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 
-}
+} */
 
-.fancy-button {
+/* .fancy-button {
     display: block;
     width: 100px;
 
@@ -59,16 +75,22 @@ body {
     padding: 5px;
 
     line-height: 5px;
+} */
+
+#project-section {
+    border: 4px solid #2F4858; /*Charcoal Blue*/
+    border-radius: 8px;
+    margin: 0 10px 20px 10px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
 }
 
 .project-wrapper {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 4px solid sandybrown;
+    border: 4px solid #9EE493; /*Light Green*/
     border-radius: 8px;
-    width: 1600px;
-    background: gainsboro;
+    margin: 0 0 40px;
+    background: #DAF7DC; /*Frosted Mint*/
 
 }
 
@@ -77,8 +99,12 @@ body {
     margin-left: 30px;
 }
 
-.text-align-center {
+/* .text-align-center {
     text-align: center;
+} */
+
+.button-padding {
+    padding: 5px;
 }
 /* 
 .trails-text {
