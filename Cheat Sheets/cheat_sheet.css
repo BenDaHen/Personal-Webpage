@@ -213,7 +213,7 @@ Center the button and add some space above it
 .nav-wrapper {
     display: flex;
     justify-content: center;
-} /*Forces items in a container into one row*/
+} /*Turns every element into its own column*/
 
 /*
 Challenge:
@@ -235,6 +235,7 @@ Give the div a "btn-wrapper" class.
     margin-left: 5px;
     margin-right: 5px;
 }
+
 
 
 /*google Recap
@@ -366,3 +367,17 @@ The <span> tag
 IDs & Utility classes
 Text-shadow
 */
+
+/*Group CSS Selector*/
+/*Give multiple elements new rules at once*/
+h1, h2, h4 { /*Make sure to use a comma!*/
+    text-shadow: 0px 0px 1px black; 
+}
+
+/*Flex Direction*/
+/*Flexbox has flex direction set to row by default (all items on one row), but this can be changed*/
+.flex {
+    display: flex;
+    flex-direction: column; /*Change the direction to one column instead of one row*/
+    align-items: center; /*Align all flex items to the center*/
+}
