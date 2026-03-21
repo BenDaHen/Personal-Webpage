@@ -380,4 +380,12 @@ h1, h2, h4 { /*Make sure to use a comma!*/
     display: flex;
     flex-direction: column; /*Change the direction to one column instead of one row*/
     align-items: center; /*Align all flex items to the center*/
-}
+} /*justify content and align items act differently depending on flex direction*/
+
+/*Align Items*/
+/*
+align-items: start;
+Controls the cross axis, going from top to bottom (vertical)
+Justify content controls the main axis, going from left to right (horizontal)
+By default, align items has stretch value
+*/
