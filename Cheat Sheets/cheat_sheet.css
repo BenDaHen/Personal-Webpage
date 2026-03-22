@@ -389,3 +389,40 @@ Controls the cross axis, going from top to bottom (vertical)
 Justify content controls the main axis, going from left to right (horizontal)
 By default, align items has stretch value
 */
+
+/* Hover
+Makes it so that when the user hovers over something, the thing they are hovering over changes
+Overrides anything that is in the base class, otherwise adds new things
+*/
+div:hover { /*Target divs with the hover pseudo-class*/
+    background-color: black;
+}
+
+/*Specificity
+The more specific a CSS selector is, the higher it will be prioritized
+i.e. IDs are more specific than classes
+*/
+
+/*Font Style*/
+/*Used to bold or italicice text*/
+.italic {
+    font-style: italic;
+}
+
+/*Gradients*/
+/*Gradients are fades from one color to another*/
+.gradient-background {
+    background: linear-gradient(blue, red); /*Fade from blue to red*/
+}
+
+/*em and strong HTML tags
+The em tag adds emphasis to something
+This one's for <em>you</em>, my friend <- Emphasizes the word 'you'
+
+The strong tag adds boldness to something
+This one's for <strong>you</strong>, my friend <- Strengthens the word 'strong'
+Shows seriousness and importance
+
+Both are also important for assistive technologies
+Both are inline, not block
+*/
