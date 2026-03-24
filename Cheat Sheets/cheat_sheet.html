@@ -158,3 +158,47 @@ Webp files are similar to gifs, but are more compact compared to gifs
 
 <!--Hero Section-->
 <!--First glimpse of the website, includes the title, logo, and call to action-->
+
+<!--Audio-->
+<!--Add audio to an HTML document using the audio tag-->
+<audio controls> <!--Controls attribute uses the default audio controls-->
+    <a href="audiofile.mp3">download audio</a> <!--This acts as a backup incase the audio fails-->
+    <source src="audiofile.mp3" type="audio/mp3"> <!--Void element, can't have content-->
+    <source src="audiofile.wav" type="audio/wav"> <!--Can have multiple source attributes, will go with the top first and if that fails, go to the next-->
+    <!--Type is optional but recommended-->
+</audio>
+
+<!--Video-->
+<!--Similar to audio outside of the HTMl tags-->
+<video controls width="400" height="225"> <!--Can manually set height and width of video, can also be done in CSS-->
+	<a href="video.mp3">download video</a>
+	<source src="video.mp4" type="video/mp4">
+	<source src="video.webm" type="video/webm">
+</video>
+
+<!--Video and Audio Accessibility-->
+<!--
+Video height and width should alyways be set, only in pixels
+Use a separate program to resize a video if needed before putting it on a page
+You can create your own controls for audio and video, which can standardize the experience across browsers
+Audio with spoken dialogue should provide both captions and transcripts
+<track> tag is used to add these
+-->
+
+<!--HTML Tables-->
+<!--
+For structuring tabular data
+NOT used for creating layouts or anything else
+
+<table> is the main table element, contains all table data
+<thead> encloses table headers
+<tbody> encloses the body of the table
+<tfoot> encloses the footer of the table
+<tr> defines a row of cells in a table
+<td> a cell of a table that contains data
+<th> a heading of a table that contains data
+<colspan> determines how many columns a td spans
+<rowspan> determines how many rows a td spans 
+<caption> The title of the table
+Scope attribute is used to tell screen readers exactly what cells the header is a header for, are either col or row
+-->
