@@ -40,4 +40,27 @@ When an HTMl element from an HTMl document is accessed in javascript, the javasc
 /*Strings
 Strings are assigned using quotes "", and can be concatenated with the + operator
 console.log(message + ", " + username + "!")
+
+When strings and numbers are concatenated, the number becomes a string
+*/
+
+/*MDN
+MDN, or Mozilla Developer Network is a great resource for Javascript
+
+It is very technical, so it is better to not go too in depth
+*/
+
+/*textContent is a better alternative to innerText*/
+
+/*Recap
+Script tag
+Variables
+Numbers
+Strings
+console.log()
+Functions
+The DOM
+getElementById()
+innerText
+textContent
 */
