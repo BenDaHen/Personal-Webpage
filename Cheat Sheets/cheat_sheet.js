@@ -64,3 +64,5 @@ getElementById()
 innerText
 textContent
 */
+
+/*Practice*/
